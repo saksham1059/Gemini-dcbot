@@ -16,7 +16,7 @@ await load({
 	export: true,
 })
 
-const DISCORD_TOKEN = Deno.env.get("DISCORD_TOKEN")
+const DISCORD_TOKEN = ("MTIwMjMwMTkxNzQ1NjUxNTEwMg.GbnEYg.cjxkWy8Vv82fOw7VDIQomcTAnZRuvVcPgxFtss")
 const GEMINI_TOKEN = Deno.env.get("GEMINI_TOKEN")
 const GEMINI_AI = new GoogleGenerativeAI(GEMINI_TOKEN)
 const GEMINI_MODEL = GEMINI_AI.getGenerativeModel({
